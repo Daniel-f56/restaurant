@@ -1,6 +1,7 @@
 package com.mycompany.restaurantapp;
 
 import people.Customer;
+import values.CustomerRole;
 
 public class RestaurantApp {
 
