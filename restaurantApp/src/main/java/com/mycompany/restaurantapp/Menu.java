@@ -1,13 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.restaurantapp;
 
-/**
- *
- * @author DT
- */
+import java.util.ArrayList;
+import values.DishType;
+
 public class Menu {
     
+    private ArrayList<Dish> dishList;
+    
+    public Menu(){
+        this.dishList = new ArrayList<>();
+    }
+    
+    public void addDish(Dish dish){
+        this.dishList.add(dish);
+    }
+    
+    public void showMenu(){
+        for(DishType dishType: DishType.values()){
+            
+         System.out.println("*** ---"+ dishType +"--- ***");
+        }
+    }
 }
+
