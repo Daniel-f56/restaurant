@@ -1,4 +1,4 @@
-package food;
+package com.mycompany.restaurantapp;
 
 import values.DishType;
 
